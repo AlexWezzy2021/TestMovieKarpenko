@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/user_test"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutUserName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint="@string/user_name"
+        app:layout_constraintEnd_toEndOf="@+id/avatarImage"
+        app:layout_constraintStart_toStartOf="@+id/avatarImage"
+        app:layout_constraintTop_toBottomOf="@+id/avatarImage">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUserName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txtCounterVideos"
+        style="@style/Subtitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/video_count"
+        app:layout_constraintEnd_toEndOf="@+id/layoutUserName"
+        app:layout_constraintStart_toStartOf="@+id/layoutUserName"
+        app:layout_constraintTop_toBottomOf="@+id/layoutUserName" />
+
+    <TextView
+        android:id="@+id/txtFollowingCount"
+        style="@style/Subtitle"
+        app:layout_constraintEnd_toStartOf="@+id/txtFansCount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtFansCount"
+        tools:text="42" />
+
+    <TextView
+        android:id="@+id/txtFollowing"
+        style="@style/Subtitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/following"
+        app:layout_constraintEnd_toEndOf="@+id/txtFollowingCount"
+        app:layout_constraintStart_toStartOf="@+id/txtFollowingCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtFollowingCount" />
+
+
+    <TextView
+        android:id="@+id/txtFansCount"
+        style="@style/Subtitle"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCounterVideos"
+        tools:text="42" />
+
+    <TextView
+        android:id="@+id/txtFans"
+        style="@style/Subtitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/fans_count"
+        app:layout_constraintEnd_toEndOf="@+id/txtFansCount"
+        app:layout_constraintStart_toStartOf="@+id/txtFansCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtFansCount" />
+
+    <TextView
+        android:id="@+id/txtHeartsCount"
+        style="@style/Subtitle"
+        android:layout_marginTop="32dp"
+        android:textStyle=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtFansCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtCounterVideos"
+        tools:text="42" />
+
+    <TextView
+        android:id="@+id/txtHearts"
+        style="@style/Subtitle"
+        android:layout_marginTop="8dp"
+        android:text="@string/hearts"
+        app:layout_constraintEnd_toEndOf="@+id/txtHeartsCount"
+        app:layout_constraintStart_toStartOf="@+id/txtHeartsCount"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeartsCount" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/red"
+        android:padding="4dp"
+        android:text="@string/editProfile"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFans" />
+
+    <TextView
+        android:id="@+id/txtBio"
+        style="@style/Subtitle"
+        android:layout_marginTop="32dp"
+        android:text="@string/not_bio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btEdit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
