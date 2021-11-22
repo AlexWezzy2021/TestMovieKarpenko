@@ -1,9 +1,9 @@
-package co.tiim.testkarpenkoalex.data.entity
+package co.tiim.testkarpenkoalex.data.api.entity
 
 import com.google.gson.annotations.SerializedName
 
 /**
- * Created by Alexander Karpenko on 02.11.2021.
+ * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
 

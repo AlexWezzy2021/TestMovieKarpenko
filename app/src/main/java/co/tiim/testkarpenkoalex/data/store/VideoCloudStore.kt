@@ -11,9 +11,9 @@ import javax.inject.Inject
  * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
-class VideoLocalStore @Inject constructor(
+class VideoCloudStore @Inject constructor(
     private val gson: Gson,
-    @ApplicationContext private val context: Context,
+    @ApplicationContext private val context: Context
 ) {
     fun getVideos(): List<Video> =
         gson.fromJson(context.assets.readFile("videos.json"), Array<Video>::class.java).toList()

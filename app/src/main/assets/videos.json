@@ -1,56 +1,79 @@
 [
   {
-    "video_description": "I've seen things you people wouldn't believe.",
-    "video_path": "https://stream.livestreamfails.com/video/5c69ce9c4eed4.mp4",
+    "id": 1,
+    "video_name": "I've seen things you people wouldn't believe.",
+    "image_path": "https://duetaz.org/wp-content/uploads/2018/07/Movie-Night.jpg",
     "video_number_likes": 10000,
+    "company_name": "Universal",
     "video_number_comments": 40,
     "user_id": "user_wn6M8FtXrWwx52A",
     "user_name": "@johndoe1",
     "user_image_path": "url"
   },
   {
-    "video_description": "Attack ships on fire off the shoulder of Orion.",
-    "video_path": "https://stream.livestreamfails.com/video/5c6b85984b99b.mp4",
+    "id": 2,
+    "video_name": "Attack ships on fire off the shoulder of Orion.",
+    "image_path": "https://media.istockphoto.com/vectors/cinema-and-movie-time-vector-id640312764",
     "video_number_likes": 10000,
+    "company_name": "20 Fox",
     "video_number_comments": 40,
     "user_id": "user_wn6M8FtXrWwx52A",
     "user_name": "@johndoe2",
     "user_image_path": "url"
   },
   {
-    "video_description": "I watched c-beams glitter in the dark near the Tannhauser Gate.",
-    "video_path": "https://stream.livestreamfails.com/video/5c6bb16bf24f3.mp4",
+    "id": 3,
+    "video_name": "I watched c-beams glitter in the dark near the Tannhauser Gate.",
+    "image_path": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg",
     "video_number_likes": 10000,
     "video_number_comments": 40,
+    "company_name": "BBC",
     "user_id": "user_wn6M8FtXrWwx52A",
     "user_name": "@johndoe3",
     "user_image_path": "url"
   },
   {
-    "video_description": "All those moments will be lost in time, like tears in rain. Time to die.",
-    "video_path": "https://livestreamfails-video-prod.b-cdn.net/video/594be2f614354102a70c3f17673fd8b8e4ba0303.mp4",
+    "id": 4,
+    "video_name": "All those moments will be lost in time, like tears in rain. Time to die.",
+    "image_path": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/BEST-85-MOVIES-ON-NETFLIX.jpg",
     "video_number_likes": 10000,
     "video_number_comments": 40,
+    "company_name": "NWC",
     "user_id": "user_wn6M8FtXrWwx52A",
     "user_name": "@johndoe4",
     "user_image_path": "url"
   },
   {
-    "video_description": "Our stern alarums changed to merry meetings.",
-    "video_path": "https://stream.livestreamfails.com/video/5c6af26aeeac1.mp4",
+    "id": 5,
+    "video_name": "Our stern alarums changed to merry meetings.",
+    "image_path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfOQa5LorldAdiQTQ-LrR9mPG9peDaSTu8Q&usqp=CAU",
     "video_number_likes": 10000,
     "video_number_comments": 40,
+    "company_name": "Company Film",
     "user_id": "user_wn6M8FtXrWwx52A",
     "user_name": "@johndoe5",
     "user_image_path": "url"
   },
   {
-    "video_description": "Made glorious summer by this sun of York.",
-    "video_path": "https://stream.livestreamfails.com/video/5c6a08092fdf5.mp4",
+    "id": 6,
+    "video_name": "All those moments will be lost in time, like tears in rain. Time to die.",
+    "image_path": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/BEST-85-MOVIES-ON-NETFLIX.jpg",
     "video_number_likes": 10000,
     "video_number_comments": 40,
+    "company_name": "NWC",
     "user_id": "user_wn6M8FtXrWwx52A",
-    "user_name": "@johndoe6",
+    "user_name": "@johndoe4",
+    "user_image_path": "url"
+  },
+  {
+    "id": 7,
+    "video_name": "All those moments will be lost in time, like tears in rain. Time to die.",
+    "image_path": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/BEST-85-MOVIES-ON-NETFLIX.jpg",
+    "video_number_likes": 10000,
+    "video_number_comments": 40,
+    "company_name": "NWC",
+    "user_id": "user_wn6M8FtXrWwx52A",
+    "user_name": "@johndoe4",
     "user_image_path": "url"
   }
 ]

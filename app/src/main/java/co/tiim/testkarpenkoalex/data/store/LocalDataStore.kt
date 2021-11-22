@@ -7,7 +7,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
 /**
- * Created by Alexander Karpenko on 02.11.2021.
+ * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
 class LocalDataStore @Inject constructor(@ApplicationContext context: Context) {

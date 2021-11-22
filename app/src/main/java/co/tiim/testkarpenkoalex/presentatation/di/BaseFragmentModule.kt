@@ -10,7 +10,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 
 /**
- * Created by Alexander Karpenko on 02.11.2021.
+ * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
 @Module

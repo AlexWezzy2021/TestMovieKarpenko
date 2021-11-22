@@ -4,7 +4,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 
 /**
- * Created by Alexander Karpenko on 02.11.2021.
+ * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
 

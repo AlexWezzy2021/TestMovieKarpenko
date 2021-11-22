@@ -8,7 +8,7 @@ import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 
 /**
- * Created by Alexander Karpenko on 02.11.2021.
+ * Created by Alexander Karpenko on 22.11.2021.
  * java.karpenko@gmail.com
  */
 

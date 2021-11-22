@@ -29,4 +29,8 @@
     <string name="share_url">Share link</string>
     <string name="send">Send</string>
     <string name="comment_video">Comment</string>
+    <string name="company">Company</string>
+    <string name="name_video">Name movie</string>
+    <string name="liked_video">Liked Video</string>
+    <string name="like">Like</string>
 </resources>
